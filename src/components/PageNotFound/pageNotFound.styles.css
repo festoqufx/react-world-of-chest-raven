@@ -1,0 +1,25 @@
+.not-found {
+  min-height: calc(100vh - var(--header-height) - 96px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.not-found__code {
+  margin: 0;
+  font-size: clamp(72px, 12vw, 128px);
+  line-height: 1;
+  letter-spacing: -0.08em;
+  font-weight: 700;
+}
+
+.not-found h1 {
+  margin: 8px 0 12px;
+}
+
+.not-found p {
+  margin: 0 0 24px;
+  color: var(--text-muted);
+}
